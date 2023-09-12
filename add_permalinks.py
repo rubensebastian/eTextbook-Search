@@ -3,14 +3,9 @@ import csv
 
 count = 0
 
-api_key = 'l8xx0776f242121e4580a9b1a05a07907eab'
+api_key = 'REPLACE_WITH_PASSWORD'
 
 new_etext_list = []
-
-# TODO: split isbns by semicolon then for loop try each one and flag if needed
-# TODO: wrap reader with a writer to add values into new spreadsheet with desired names
-# TODO: better variable names
-# TODO: just Add ISBN search to the loop, i.e. find alternate values and search
 
 # with open('/data/full_isbn_etexts.csv', newline='') as etext_list:
 with open('data/isbn_mini.csv', newline='') as etext_list:
